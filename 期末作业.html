@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ReaKey的个人网站</title>
+	<style type="text/css">
+        h1{
+        
+        color: green;
+
+        }
+
+
+
+
+.navli
+{
+              float: left;
+            width: 70px;
+            height: 20px;
+            margin-left:20px;
+            margin-top: 5px; 
+            border: 3px solid white;
+            color: white;
+
+}
+
+
+        .showdiv
+        {
+  position: absolute;
+            top: 20%;
+            left: 30%;
+            color: green;
+            
+            opacity: 0.9;
+        }
+
+        .navqwq
+        {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            color: green;
+            
+            opacity: 0.9;
+
+
+        }
+        .error{
+            
+            position: absolute;
+            top: 0%;
+            left: 30%;
+            color: white;
+            
+            opacity: 0.9;
+        }
+        .div2
+        {
+
+     background-color: rgba(200,255,255,0.5);
+            position: absolute;
+            top: 25%;
+            left: 30%;
+            color: white;
+            width: 500px;
+            opacity: 0.9;
+            text-align:center;
+
+        }
+        .div3
+        {
+            background-color: rgba(121,156,209,0.5);
+ position: absolute;
+            top: 120%;
+            left: 15%;
+              width: 1100px;
+              height: 350px;
+            color: white;
+            
+            opacity: 0.9;
+
+        }
+        .div4
+        {
+          background-color: rgba(135,110,255,0.5);
+ position: absolute;
+            top: 170%;
+            left: 20%;
+              width: 950px;
+            color: white;
+            
+            opacity: 0.9;
+
+
+        }
+
+        .square a{
+            color: red;
+            border-style:  solid;
+
+        }
+		
+        .rightdiv{
+     position: absolute;
+            top: 5%;
+            left: 70%;
+            color: white;
+            width: 400px;
+            height: 800px;
+            background-color: rgba(110,239,255,0.5);
+            opacity: 1;
+        }
+
+
+		 ul{
+		 	list-style: none;
+		 	overflow: hidden;
+		 }
+		 ul li{
+		 	float: left;
+		 	width: 50px;
+		 	height: 50px;
+	        margin-left:10px;
+	        margin-top: 20px; 
+	        border: 2px solid pink;
+		 }
+		 ul li.active
+		 {
+			border-color: white;
+
+		 }
+
+         ul.characters
+         {
+           list-style: none;
+            overflow: hidden;
+
+
+         }
+        ul li.characters
+        {
+
+                float: left;
+            width: 200px;
+            height: 200px;
+            margin-left:50px;
+            margin-top: 20px; 
+            border: 5px solid pink;
+            opacity: 0.5;
+        }
+            ul li.tarot
+        {
+
+                float: left;
+            width: 200px;
+            height: 400px;
+            margin-left:50px;
+            margin-top: 20px; 
+            border: 5px solid pink;
+            opacity: 0.9;
+        }
+
+ul li.tarot2
+        {
+
+                float: left;
+            width: 100px;
+            height: 30px;
+            margin-left:120px;
+            margin-top: 10px; 
+            border: 5px solid pink;
+            opacity: 0.9;
+        }
+
+
+	</style>
+</head>
+<body bgcolor="gray">
+
+
+
+
+
+
+  <canvas id='canvas'position:absolute;z-index:-2></canvas>
+
+<div class="rightdiv" id="rightdiv"> ・(PД`q｡)・阿勒？？并不知道放什么在这里啊？......那就随便放些我喜欢的动漫角色在这里吧...
+
+
+<ul>
+                <img id="rightImg" title="qwq" src="character/0.jpg" width=200 >
+    </ul>        
+    <ul>
+                <img id="rightImg2" title="qwq" src="character/0.jpg" width=200 >
+    </ul>        
+    <ul>
+                <img id="rightImg3" title="qwq" src="character/0.jpg" width=200 >
+    </ul>        
+    
+</div>
+
+
+
+
+    <div id="error"  class="error">
+<h1 id="t1"></h1>
+<h1 id="t2"></h1>
+</div>
+
+
+<div id="showdiv" class="showdiv"> 
+    
+ <button onclick="startdraw()">EXECUTE</button>
+
+
+</div>
+
+
+<div class="navqwq"  id="navqwq">
+    
+<nav id="nav" >
+        <div>
+            <ul>
+                <a href="#content1"><li class="navli">独立游戏</li></a>
+            </ul>
+            <ul>
+                <a href="#content2"><li class="navli">其他网页</li></a>
+            </ul>
+            <ul>
+                <a href="#content3"><li class="navli">先知占卜</li></a>
+            </ul>
+        </div>
+    </nav>
+
+</div>
+
+     
+<div class='div2' id="div2">
+
+
+
+
+
+<!--
+     <br>
+        <ul class="square">
+            <a href="#content1">玩法机制</a>
+            <a href="#content2">故事介绍</a>
+            <a href="#content3">人物设定</a>
+        </ul>
+        <h3 id="content1">玩法机制</h3>
+       -->
+      
+<!--
+ <button onclick="startdraw()">qwqsaddddddddddddddddddd</button>
+    -->
+
+<h3 id="content1">正在开发的独立游戏：“化身”</h3>
+	<img src="gif/01.gif" id="bigImg" width=400 height=300>
+	<ul>
+		<li class="active">
+			<a >
+
+				<img title="qwq" src="gif/01.gif" width=50 height=50 class="smallImg">
+			</a>
+		</li>
+		<li>
+			<a >
+				<img src="gif/02.gif" width=50 height=50  class="smallImg">
+			</a>
+		</li>
+		<li>
+			<a >
+				<img src="gif/03.gif" width=50 height=50  class="smallImg">
+			</a>
+		</li>
+	</ul>
+
+	<p id="pqwq"></p>
+    <a href=6.html target="_blank">
+<button >试玩游戏demo</button>
+</a>
+<p>ps:试玩demo很无聊，因为还没做什么，放在这里只是为了测试将游戏放入网页
+</p>
+</div>
+  <div class="div3" id="div3">
+
+        <h3 id="content2">为了完成作业准备的其他网页的超链接</h3>
+        
+
+<ul class="characters">
+        <li class="characters" >
+            <a  href=2.html target="_blank">
+
+                <img title="qwq" src="character/1.jpg" width=200 height=200>
+            </a>
+        </li>
+        <li class="characters">
+            <a  href=3.html target="_blank">
+                <img src="character/2.jpg" width=200 height=200>
+            </a>
+        </li>
+        <li class="characters">
+            <a  href=4.html target="_blank">
+                <img src="character/3.jpg" width=200  height=200>
+            </a>
+        </li>
+        <li class="characters" >
+            <a  href=5.html target="_blank">
+
+                <img title="qwq" src="character/4.jpg" width=200  height=200>
+            </a>
+        </li>
+
+    </ul>
+
+
+       
+
+
+
+</div>
+ 
+<div class="div4"  id="div4">
+    <h3 id="content3">塔罗牌占卜</h3>
+
+
+   <button  style="display:block;margin:0 auto;height: 50px;width: 100px" onclick="zhanbu();" >占卜</button>  
+    <ul class="tarot">
+        <li class="tarot" >
+            <a >
+
+                <img id="tarotimg1" title="qwq" src="tarot/22.png" width=200 >
+
+            </a>
+        </li>
+        <li class="tarot">
+            <a >
+                <img id="tarotimg2" src="tarot/22.png" width=200>
+            </a>
+        </li>
+        <li class="tarot">
+            <a >
+                <img id="tarotimg3" src="tarot/22.png" width=200 >
+            </a>
+        </li>
+    </ul>
+     
+     <ul class="tarot2">
+        <li class="tarot2" id="tarotPo1" >
+          
+
+             
+
+           
+        </li>
+        <li class="tarot2" id="tarotPo2">
+            <a href="">
+            
+            </a>
+        </li>
+        <li class="tarot2" id="tarotPo3">
+            <a href="">
+            
+            </a>
+        </li>
+    </ul>
+
+
+</div>
+
+
+
+	<script type="text/javascript">
+		var bugImg=document.getElementById('bigImg');
+		var smallImgs=document.getElementsByClassName('smallImg');
+
+		for(var i=0;i<smallImgs.length;i++)
+		{
+			smallImgs[i].onmouseover=function()
+			{
+				
+                if(this.getAttribute('src')=="gif/01.gif")
+                {
+
+                        document.getElementById('pqwq').innerHTML="化身系统<br>你可以化身为任意的电子设备，也许是手机，pc，或是机械单位";
+                }
+                 if(this.getAttribute('src')=="gif/02.gif")
+                {
+
+                        document.getElementById('pqwq').innerHTML="视野系统测试<br>每个单位拥有视野场，视野场内部由射线实现，射线还可以判断是否有单位在你的视野范围内，并画出红线标记";
+                }
+                 if(this.getAttribute('src')=="gif/03.gif")
+                {
+
+                        document.getElementById('pqwq').innerHTML="敲敲敲代码";
+                }
+
+
+				for(var j=0;j<smallImgs.length;j++)
+				{
+					smallImgs[j].parentNode.parentNode.setAttribute('class','');
+				}
+				this.parentNode.parentNode.setAttribute('class','active');
+				bigImg.setAttribute('src',this.getAttribute('src'));
+				
+			}
+
+		}
+
+
+
+
+
+
+ var canvas=document.getElementById("canvas");
+        var ctx=canvas.getContext("2d");
+ 
+
+     var screenSwitch =false;
+        // 使canvas元素撑满整个页面
+        canvas.width=window.innerWidth;
+        canvas.height=2100;
+ 
+        // 创建数字数组
+        var texts='01'.split('');
+     // var texts=['nihao','qwq'];
+        // 计算一行应该有多少个数字
+        var fontSize=16;
+        var columns=canvas.width/fontSize;
+ 
+        // 创建drops数组,用于记录每一列当前拥有的数字数目，每项初始化为1
+        var drops=[];
+        for(var i=0;i<columns;i++){
+            drops[i]=1;
+        }
+ 
+        //定义绘制函数draw
+        function draw(){
+            //使得背景颜色为黑
+           ctx.fillStyle='rgba(0,0,0,0.05)';
+            ctx.fillRect(0,0,canvas.width,canvas.height);
+ 
+            // 随后背景颜色变透明，文字改为绿色
+           ctx.fillStyle= '#0f0';
+          //  ctx.font=fontSize+"px arial";
+ 
+            for(var i=0;i<drops.length;i++){
+                var text=texts[Math.floor(Math.random()*texts.length)];//从数字数组中随机取一个数字
+                ctx.fillText(text,i*fontSize,drops[i]*fontSize);//绘制文字
+                if(drops[i]*fontSize>canvas.height||Math.random()>0.95){
+                    drops[i]=0;
+                }
+                drops[i]++;
+            }
+ 
+        }
+
+
+//控制最开始不显示
+
+document.getElementById("div2").style.display="none";
+document.getElementById("showdiv").style.display="none";
+document.getElementById("navqwq").style.display="none";
+document.getElementById("div3").style.display="none";
+document.getElementById("div4").style.display="none";
+document.getElementById("rightdiv").style.display="none";
+  
+  var interval = setInterval(draw, 44);
+clearInterval(interval );
+        function startdraw()
+        {
+
+
+            screenSwitch=!screenSwitch;
+            if(screenSwitch)
+            {
+       interval = setInterval(draw, 40);
+       document.getElementById("div2").style.display="";
+       document.getElementById("navqwq").style.display="";
+       document.getElementById("div3").style.display="";
+       document.getElementById("div4").style.display="";
+document.getElementById("rightdiv").style.display="";
+  
+           }
+            else
+            {
+clearInterval(interval );
+clearCanvas();
+//document.getElementById("div2").style.display="none";
+  //     document.getElementById("navqwq").style.display="none";
+    //   document.getElementById("div3").style.display="none";
+      // document.getElementById("div4").style.display="none";
+//document.getElementById("rightdiv").style.display="none";
+  
+
+  
+//document.getElementById("error").innerHTML='';
+            }
+        }
+
+ //       var interval = setInterval(draw, 44); //启动,func不能使用括号
+//clearInterval(interval );//停止
+//interval = setInterval(draw, 10); //重新启动即可
+
+function clearCanvas()
+{  
+    var c=document.getElementById("canvas");  
+    var cxt=c.getContext("2d");  
+    c.height=c.height;  
+} 
+
+var textsqwq='//抽象的灵魂化身为了具体的对象：我'.split('');
+var texts2='Soul I = new Incarnation();'.split('');
+
+
+
+var timmer=0;
+var timmer2=-20;
+var fakeInputCode=setInterval(function()
+{
+    document.getElementById('t1').innerHTML+=textsqwq[timmer];
+timmer++;
+if(timmer>=textsqwq.length)
+{
+    clearInterval(fakeInputCode);
+
+}
+},100)
+
+
+var fakeInputCode2=setInterval(function()
+{
+    if(timmer2>=0)
+   { document.getElementById('t2').innerHTML+=texts2[timmer2];}
+timmer2++;
+if(timmer2>=texts2.length)
+{
+    document.getElementById("showdiv").style.display="";
+    clearInterval(fakeInputCode2);
+
+}
+},100)
+
+/*
+var timmer=3;
+ var timedraw= setInterval(function(){ 
+    timmer--;
+    if(timmer<=0)
+    {
+        startdraw();
+     clearInterval(timedraw);
+    }
+},1000)
+*/
+
+
+
+
+
+ var mt = 0;
+    window.onload = function () {
+        var mydiv = document.getElementById("nav");
+        var mt = mydiv.offsetTop;
+        window.onscroll = function () {
+            var t = document.documentElement.scrollTop || document.body.scrollTop;
+            if (t > mt) {
+                mydiv.style.position = "fixed";                    
+                mydiv.style.top = "0";
+            }
+            else {
+                mydiv.style.position = "static";
+            }
+        }
+    }
+
+
+function zhanbu()
+{
+
+  var a= Math.floor(Math.random()*22);
+
+  var b=Math.floor(Math.random()*22);
+  while(a==b)
+    var b=Math.floor(Math.random()*22);
+
+
+ var c=Math.floor(Math.random()*22);
+while(a==c||b==c)
+  var c=Math.floor(Math.random()*22);
+
+ var d= Math.floor(Math.random()*2);
+ var e= Math.floor(Math.random()*2);
+ var f= Math.floor(Math.random()*2);
+
+document.getElementById("tarotimg1").src="tarot/"+a+".png";
+document.getElementById("tarotimg2").src="tarot/"+b+".png";
+document.getElementById("tarotimg3").src="tarot/"+c+".png";
+
+if(d==0)
+document.getElementById("tarotPo1").innerHTML="逆位";
+else
+document.getElementById("tarotPo1").innerHTML="正位";
+
+if(e==0)
+document.getElementById("tarotPo2").innerHTML="逆位";
+else
+document.getElementById("tarotPo2").innerHTML="正位";
+
+if(f==0)
+document.getElementById("tarotPo3").innerHTML="逆位";
+else
+document.getElementById("tarotPo3").innerHTML="正位";
+
+
+}
+
+var timmer3=0;
+var characterLength=17;
+
+var rightImgChange=setInterval(function()
+{
+    
+    document.getElementById("rightImg").src="character/"+timmer3+".jpg"
+
+    if(timmer3>=characterLength-1)
+
+    {
+    if(timmer3==characterLength-1)
+    document.getElementById("rightImg2").src="character/"+(timmer3+1)+".jpg"
+    if(timmer3==characterLength)
+    document.getElementById("rightImg2").src="character/"+0+".jpg"
+
+    document.getElementById("rightImg3").src="character/"+(timmer3-characterLength+1)+".jpg"
+    }
+    else
+    {
+    document.getElementById("rightImg2").src="character/"+(timmer3+1)+".jpg"
+    document.getElementById("rightImg3").src="character/"+(timmer3+2)+".jpg"
+    }
+    
+    timmer3++;
+    if(timmer3>characterLength)
+    {
+    
+    timmer3=0;
+
+    }
+},1000)
+
+
+//document.getElementById("tarotimg1").src="tarot/1.png";
+
+
+	</script>
+
+</body>
+</html>
